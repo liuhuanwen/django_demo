@@ -4,7 +4,7 @@ from django.http import HttpRequest, JsonResponse
 
 def say_hello(_: HttpRequest) -> JsonResponse:
     result = {
-        'msg': 'hello world',
+        'msg': 'success',
         'code': 200,
         'data': 'hello word'
     }
